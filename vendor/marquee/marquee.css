@@ -1,0 +1,32 @@
+
+        ul, li {
+            list-style: none;
+        }
+
+
+        .marquee ul.flex {
+            display: flex;
+            align-items: center;
+        }
+
+        .marquee ul.flex li {
+            flex-shrink: 0;
+            width: 350px;
+            height: 350px;
+            border-radius: 5px;
+            line-height: 150px;
+            text-align: center;
+            font-size: 38px;
+            color: #fff;
+            background-image: url("i2.jpg");
+            
+        }
+
+        .marquee-wrapper {
+            margin-top:40px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+
+    
